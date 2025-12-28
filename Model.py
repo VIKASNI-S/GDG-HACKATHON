@@ -102,7 +102,7 @@ if 'username' not in st.session_state:
 # --------------------------------------------------
 API_KEY = st.secrets["GEMINI_API_KEY"]
 client = genai.Client(api_key=API_KEY)
-MODEL_ID = "gemini-2.0-flash" # Updated to newest available stable
+MODEL_ID = "gemini-3-flash-preview" # Updated to newest available stable
 
 # --------------------------------------------------
 # SESSION STATE
