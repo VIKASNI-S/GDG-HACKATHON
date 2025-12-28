@@ -444,7 +444,7 @@ import json
 import re
 from google import genai
 from PIL import Image
-#import PyPDF2
+
 from pypdf import PdfReader
 from datetime import datetime
 import os
