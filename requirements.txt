@@ -3,4 +3,4 @@ google-genai
 pillow
 pyzbar
 pydantic
-PyPDF2
+pypdf
