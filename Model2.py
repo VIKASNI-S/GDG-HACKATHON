@@ -172,7 +172,7 @@ except KeyError:
     st.stop()
 
 client = genai.Client(api_key=API_KEY)
-MODEL_ID = "gemini-2.0-flash-exp"
+MODEL_ID = "gemini-3-flash-preview"
 
 # SESSION STATE
 session_keys = {"clinical_data": None, "clinical_history": [], "recipe_history": [], "product_scan_history": []}
